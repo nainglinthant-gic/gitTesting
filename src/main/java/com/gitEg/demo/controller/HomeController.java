@@ -12,4 +12,10 @@ public class HomeController {
         model.addAttribute("title", "Welcome to Our E-Commerce Store");
         return "welcome";
     }
+
+    @GetMapping("/welcome")
+    public String WelcomePage(Model model) {
+        model.addAttribute("title", "Welcome to Our E-Commerce Store");
+        return "welcome";
+    }
 }
